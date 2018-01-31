@@ -1,5 +1,6 @@
 # Laravel-USPS
-
+Updated version of below package.
+Updates are done by mutahir@pkteam.com.
 Laravel-USPS updated package of https://github.com/johnpaulmedina/laravel-usps.
 
 Laravel-USPS is a composer package that allows you to integrate the USPS Address / Shipping API. This backage is ported from @author Vincent Gabriel https://github.com/VinceG/USPS-php-api
@@ -12,7 +13,7 @@ Laravel-USPS is a composer package that allows you to integrate the USPS Address
 Begin by installing this package through Composer. Run this command from the Terminal:
 
 ```bash
-composer require mutahir-shah/laravel-usps-updated:dev-master
+composer require mutahir-shah/uspslaravel:dev-master
 ```
 ## Laravel integration
 

@@ -1,6 +1,6 @@
 {
     "name": "mutahir-shah/uspslaravel",
-    "description": "this is the upated version of some other package",
+    "description": "this is the upated version of laravel usps package. some improvements are made in this pkg",
     "type": "library",
     "license": "MIT",
     "version": "dev-master",
@@ -10,7 +10,7 @@
             "email": "mutahir@pkteam.com"
         }
     ],
-    "homepage":"https://github.com/mutahir-shah/laravel-usps-updated/",
+    "homepage":"https://github.com/mutahir-shah/uspslaravel/",
     "license": "MIT",
     "require": { 
     },
@@ -19,6 +19,6 @@
             "Usps": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
  
 }
