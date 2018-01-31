@@ -1,0 +1,24 @@
+{
+    "name": "mutahir-shah/uspslaravel",
+    "description": "this is the upated version of some other package",
+    "type": "library",
+    "license": "MIT",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Mutahir Shah",
+            "email": "mutahir@pkteam.com"
+        }
+    ],
+    "homepage":"https://github.com/mutahir-shah/laravel-usps-updated/",
+    "license": "MIT",
+    "require": { 
+    },
+    "autoload": {
+        "psr-0": {
+            "Usps": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+ 
+}
