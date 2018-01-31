@@ -1,6 +1,6 @@
 {
     "name": "mutahir-shah/uspslaravel",
-    "description": "this is the upated version of laravel usps package. some improvements are made in this pkg",
+    "description": "This version is a modified version of https://github.com/johnpaulmedina/laravel-usps",
     "type": "library",
     "license": "MIT",
     "version": "dev-master",
@@ -8,7 +8,11 @@
         {
             "name": "Mutahir Shah",
             "email": "mutahir@pkteam.com"
-        }
+        },
+         {
+            "name": "John Paul Medina",
+            "email": "medina.jpaul@gmail.com"
+        },
     ],
     "homepage":"https://github.com/mutahir-shah/uspslaravel/",
     "license": "MIT",
