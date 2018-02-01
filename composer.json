@@ -1,22 +1,26 @@
 {
-    "name": "mutahir-shah/uspslaravel",
+   "name": "mutahir-shah/uspslaravel",
     "description": "This version is a modified version of https://github.com/johnpaulmedina/laravel-usps",
     "type": "library",
-    "license": "MIT",
-    "version": "dev-master",
+    "keywords": ["usps","laravel","laravel5","laravel usps"],
     "authors": [
-        {
+          {
             "name": "Mutahir Shah",
             "email": "mutahir@pkteam.com"
         },
-         {
+        {
             "name": "John Paul Medina",
             "email": "medina.jpaul@gmail.com"
         },
+        {
+            "name": "Vincent Gabriel",
+            "link": "https://github.com/VinceG"
+        }
     ],
-    "homepage":"https://github.com/mutahir-shah/uspslaravel/",
+    "homepage":"https://github.com/johnpaulmedina/laravel-usps/",
     "license": "MIT",
-    "require": { 
+    "require": {
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-0": {
@@ -24,5 +28,4 @@
         }
     },
     "minimum-stability": "dev"
- 
 }
