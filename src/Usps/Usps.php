@@ -62,7 +62,7 @@ class Usps {
          // Initiate and set the username provided from usps
         $rate = new Rate($this->config['username']);
         // During test mode this seems not to always work as expected
-        //$rate->setTestMode(true);
+        $rate->setTestMode(false);
         // Create new package object and assign the properties
         // apartently the order you assign them is important so make sure
         // to set them as the example below
@@ -103,12 +103,12 @@ class Usps {
         $label->setFromAddress('John', 'Doe', '', '5161 Lankershim Blvd', 'North Hollywood', 'CA', '91601', '# 204', '', '8882721214');
         $label->setToAddress('Vincent', 'Gabriel', '', '230 Murray St', 'New York', 'NY', '10282');
         $label->setWeightOunces(1);
-        $label->setField(36, 'LabelDate', '30/01/2018');
+       // $label->setField(36, 'LabelDate', '30/01/2018');
         //$label->setField(32, 'SeparateReceiptPage', 'true');
         // Perform the request and return result
+echo '<pre>';
         $label->createLabel();
-        //print_r($label->getArrayResponse());
-        //print_r($label->getPostData());
+        //print_r($label->getArrayResponse()); 
         //var_dump($label->isError());
         // See if it was successful
         if ($label->isSuccess()) {

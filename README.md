@@ -40,7 +40,7 @@ Add your USPS username config in `config/services.php`.
 ```
 
 ## Example Controller Usage
-The only method completed for Laravel is the `Usps::validate` which is defined in `vendor/johnpaulmedina/laravel-usps/src/Usps/Usps.php`. As this package was developed for internal use I did not bring over all the features but you are more than welcome to contribute the methods you need and I will merge them. I suggest looking at the original PHP-Wrapper by @VinceG [USPS PHP-Api](https://github.com/VinceG/USPS-php-api "USPS PHP-Api by VinceG") as I ported those clases and autoloaded them to use in the `Usps.php` file.
+The only method completed for Laravel is the `Usps::validate`,getPriorityLabels,calculateRates which is defined in `vendor/johnpaulmedina/laravel-usps/src/Usps/Usps.php`. I am adding more methods in it. I suggest looking at the original PHP-Wrapper by @VinceG [USPS PHP-Api](https://github.com/VinceG/USPS-php-api "USPS PHP-Api by VinceG") as I ported those clases and autoloaded them to use in the `Usps.php` file.
 ```php
 <?php
 
@@ -88,6 +88,6 @@ Authors
 =======
 - Vincent Gabriel <http://vadimg.com> (Original PHP-Wrapper)
 
-modifier , Mutahir Shah
+Furthere modifications and enhancement for laravel are done by , Mutahir Shah
+<http://pkteam.com>
 
-pkteam.com

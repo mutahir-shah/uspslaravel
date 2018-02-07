@@ -11,8 +11,8 @@
 namespace Usps;
 
 abstract class USPSBase
-{
-    const LIVE_API_URL = 'http://production.shippingapis.com/ShippingAPI.dll';
+{//http://production.shippingapis.com/ShippingAPI.dll
+    const LIVE_API_URL = 'https://secure.shippingapis.com/ShippingAPI.dll';
     const TEST_API_URL = 'http://production.shippingapis.com/ShippingAPITest.dll';
 
     /**
@@ -177,6 +177,7 @@ abstract class USPSBase
         if (! $ch) {
             $ch = curl_init();
         }
+       // echo $this->getEndpoint();exit;
 
         $opts                     = self::$CURL_OPTS;
         $opts[CURLOPT_POSTFIELDS] = http_build_query($this->getPostData(), null, '&');
